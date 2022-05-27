@@ -1,0 +1,133 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+header {
+    display: inline;
+}
+
+.preto_header {
+    background-color: #222222;
+    color: white;
+    height: 90px;
+    padding: 20px;
+}
+
+#logo {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    left: 20px;
+}
+
+#opcoes ul{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 900px;
+    top: 25px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    text-decoration: none;
+}
+
+.pizza {
+    text-align: left;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.card1 {
+    width: 490px;
+    height: 350px;
+    top: 140px;
+    left: 514px;
+    align-items: center;
+    border: #222;
+    border-style:inset;
+}
+
+.preto_footer {
+    display: flex;
+    position: absolute;
+    width: 98%;
+    background-color: #222;
+    padding: 25px;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conteudo {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.card img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-img {
+    position: fixed;
+    margin: 5px;
+    left: 95px;
+    text-align: center;
+    color: red ;
+    align-items: center;
+}
+
+.white {
+    color: white;
+ }
+
+ #itens {
+     text-align: left;
+     font-weight: bold;
+     justify-content: space-between;
+}
+
+ .top5 {
+    text-align: left;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.pizzafalling {
+    margin-left: 300px;
+    margin-top: -200px;
+
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+.header-menu {
+    list-style: none;
+    float: right;
+    margin-right: 5px;
+    display: flex;
+    top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+
